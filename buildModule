@@ -1,0 +1,10 @@
+cp /usr/share/nginx/html/components/com_community/controllers/courses.php golfcourses/components/com_community/controllers
+cp /usr/share/nginx/html/components/com_community/models/courses.php golfcourses/components/com_community/models
+cp -r /usr/share/nginx/html/components/com_community/views/courses golfcourses/components/com_community/views
+cp -r /usr/share/nginx/html/components/com_community/templates/jomsocial/layouts/courses golfcourses/components/com_community/templates/jomsocial/layouts
+
+cp -r /usr/share/nginx/html/administrator/components/com_community/views/course golfcourses/administrator/components/com_community/views
+cp /usr/share/nginx/html/administrator/components/com_community/models/course.php golfcourses/administrator/components/com_community/models
+cp /usr/share/nginx/html/administrator/components/com_community/controllers/course.php golfcourses/administrator/components/com_community/controllers
+zip -r joomla_gwm_golfcourses golfcourses
+

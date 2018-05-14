@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="Courses">
+		<message>
+			<![CDATA[
+				Course view
+			]]>
+		</message>
+		<options var="task">
+ 			<default name="Golf Course" msg="Displays all Golf Course for the user" />
+			<option value="viewlist" name="- View Course" msg="Displays a list of course." />
+ 		</options>
+	</view>
+	<state>
+		<name>Course Layout</name>
+		<description>Course listings layout</description>
+	</state>
+</metadata>
